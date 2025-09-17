@@ -88,10 +88,10 @@ const Hero = () => {
             <Button variant="ghost" size="lg" className="hover:text-primary hover:scale-110 transition-all">
               <Linkedin className="h-6 w-6" />
             </Button>
-            <Button variant="ghost" size="lg" asChild className="hover:text-primary hover:scale-110 transition-all">
-              <Link to="/contact">
+            <Button variant="ghost" size="lg" className="hover:text-primary hover:scale-110 transition-all">
+              <a href="mailto:mpdarshan204@gmail.com">
                 <Mail className="h-6 w-6" />
-              </Link>
+              </a>
             </Button>
           </div>
         </div>
