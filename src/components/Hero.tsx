@@ -86,7 +86,9 @@ const Hero = () => {
               <Github className="h-6 w-6" />
             </Button>
             <Button variant="ghost" size="lg" className="hover:text-primary hover:scale-110 transition-all">
-              <Linkedin className="h-6 w-6" />
+              <a href="https://www.linkedin.com/in/darshan-mp" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-6 w-6" />
+              </a>
             </Button>
             <Button variant="ghost" size="lg" className="hover:text-primary hover:scale-110 transition-all">
               <a href="mailto:mpdarshan204@gmail.com">

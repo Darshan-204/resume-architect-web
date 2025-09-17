@@ -45,7 +45,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/darshan-mp",
       color: "hover:text-blue-500"
     }
   ];
