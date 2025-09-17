@@ -1,24 +1,44 @@
+# Resume Architect Web
 
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+A modern portfolio web app built with Vite, React, TypeScript, shadcn-ui, and Tailwind CSS.
 
-## What technologies are used for this project?
+## Features
+- Responsive design
+- Modular components
+- Fast development with Vite
+- Styled with Tailwind CSS and shadcn-ui
 
-This project is built with:
+## Getting Started
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm
 
-## How can I deploy this project?
+### Installation
+```sh
+npm install
+```
 
-Simply open [Lovable](https://lovable.dev/projects/4cf82994-d093-44e5-ac3c-35541e2ac1bd) and click on Share -> Publish.
+### Development
+```sh
+npm run dev
+```
 
-## Can I connect a custom domain to my Lovable project?
+## Deployment
 
-Yes, you can!
+You can deploy this project easily on Vercel:
+1. Push your code to GitHub.
+2. Go to [Vercel](https://vercel.com/) and sign in.
+3. Click "New Project" and import your repository.
+4. Vercel will auto-detect the settings. Click "Deploy".
+5. Your site will be live at a Vercel URL. You can add a custom domain in the dashboard.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Project Structure
+- `src/` — Main source code
+- `public/` — Static assets
+- `components/` — UI components
+- `pages/` — Page components
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## License
+MIT
+
