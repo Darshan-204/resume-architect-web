@@ -83,7 +83,9 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 animate-scale-in">
             <Button variant="ghost" size="lg" className="hover:text-primary hover:scale-110 transition-all">
-              <Github className="h-6 w-6" />
+              <a href="https://github.com/Darshan-204" target="_blank" rel="noopener noreferrer">
+                <Github className="h-6 w-6" />
+              </a>
             </Button>
             <Button variant="ghost" size="lg" className="hover:text-primary hover:scale-110 transition-all">
               <a href="https://www.linkedin.com/in/darshan-mp" target="_blank" rel="noopener noreferrer">
